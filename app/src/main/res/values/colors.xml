@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37942a</color>
+    <color name="colorPrimaryDark">#37942a</color>
+    <color name="colorAccent">#37942a</color>
+    <color name="colorControlActivated">#37942a</color>
+    <color name="messageDialogBackground">#ffffff</color>
+    <color name="textColor">#ffffff</color>
+</resources>

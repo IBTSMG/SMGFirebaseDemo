@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMG Chat</string>
+    <string name="registerActivityUserHint">User Name</string>
+    <string name="registerActivityPhoneHint">Phone Number</string>
+    <string name="registerActivityLoginButtonText">Register</string>
+    <string name="messageActivityMessageHint">Type Message</string>
+</resources>

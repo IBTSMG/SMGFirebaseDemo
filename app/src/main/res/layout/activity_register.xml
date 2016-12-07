@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+
+    <EditText
+        android:id="@+id/userEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registerActivityUserHint"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/registerActivityPhoneHint"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="10dp"
+        />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerActivityLoginButtonText"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        />
+
+  <!--  <TextView
+        android:id="@+id/progressBarTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_alignLeft="@id/progressBar"
+        android:layout_alignTop="@id/progressBar"
+        android:text="Registering.."
+        android:visibility="invisible"
+     />-->
+
+
+
+</LinearLayout>
