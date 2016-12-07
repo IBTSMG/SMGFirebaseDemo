@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.example.t47777.firebasedeneme1"
+        applicationId "com.example.IbtechSMG.FirebaseDemo"
         minSdkVersion 22
         targetSdkVersion 24
         versionCode 1
